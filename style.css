@@ -1,0 +1,540 @@
+@font-face {
+    font-family: 'Post No Bills Jaffna Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Post No Bills Jaffna Regular'), url('PostNoBillsJaffna-Regular.woff') format('woff');
+}
+
+ @font-face {
+ 	src: url('/..fonts/PostNoBillsJaffna-Bold.wolf');
+    font-family: 'Post No Bills Jaffna Bold';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Post No Bills Jaffna Bold'), url('PostNoBillsJaffna-Bold.woff') format('woff');
+}
+
+body,h1,h2,h3,h4,h5,a,p,section{
+	margin: 0;
+	font-weight: normal;
+	font-size: 100%;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.cap{
+	
+}
+
+.topCap-color{
+	background-color: black;
+	height: 44px;
+}
+
+.topCap-container{
+	width: 1100px;
+	margin: auto;
+}	
+
+.cap-left{
+	display: flex;
+	padding-top: 14px; 
+}
+
+.logo{
+	padding-right: 15px;
+}
+
+.tel{
+	text-decoration: none;
+	color: white;
+}
+
+.capTop-fl{
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.login-img{
+	padding-left: 588px;
+	padding-right: 10px; 
+}
+
+.login-a{
+	text-decoration: none;
+	color: white;
+}
+
+.bot-cap-color{
+	background-color: #0F0F0F;
+	height: 80px;
+}
+
+.cap-header{
+	color: white;
+	font-family: "Post No Bills Jaffna Bold";
+	font-size: 36px;
+	padding-top: 15px;
+}
+
+.menu-flex{
+	display: flex;
+	justify-content:space-between;
+}
+
+.block-menu{
+	display: flex;
+}
+
+.menu-cont{
+	background-color: #0F0F0F;
+	color: gray;
+	transition: all 0.25s linear;
+
+}
+
+.botton-title{
+	text-decoration: none;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.btp{
+	padding-top: 31px;
+	text-align: center;
+}
+
+.bip{
+	display: flex;
+	margin: auto;
+	padding-top: 28px;
+}
+
+.menu-cont:hover{
+	background-color: #1F1F1F;
+	color: white;
+}
+
+.header{
+	height: 810px;
+	text-align: center;
+	background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url("Img/Rectangle 3.png");
+}
+
+.overlay{
+	background-color: rgba(0, 0, 0, .5);
+	height: 810px;
+	padding: 160px 0 0;
+}
+
+.header-cont{
+	width: 730px;
+	margin: auto;
+}
+
+.rectangle{
+	margin: auto;
+	height: 320px;
+	width: 320px;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	padding: 100px 62px;
+}
+
+.head-bord{
+	border-bottom: solid;
+	border-color: white;
+	border-width: 3px;
+
+}
+
+.header-h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.header-h2{
+	padding-top: 10px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.header-font{
+	padding-top: 80px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 16px;
+}
+
+.season, .chb{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+.ses20{
+	height: 730px;
+	width: 1040px;
+	text-align: center;
+}
+
+.seas-bord{
+	text-align: center;
+}
+
+.seas-title{
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 36px;
+	color: white;
+	padding-top: 93px;
+	padding-bottom: 40px;
+}
+
+.card{
+	margin-right: 50px;
+	margin-top: 50px;
+	display: inline-block;
+	width: 260px;
+	height: 405px;
+}
+
+.card-col{
+	background-color: #191B1C;
+	height: 325px;
+	padding: 53px 0;
+}
+
+.left-card{
+	margin-left: 40px;
+}
+
+.card-title{
+	padding-top: 25px;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	font-weight: 400;
+	text-align: left;
+	font-size: 18px;
+
+}
+
+.card-img{
+	transition: all 1s ease-out;
+}
+
+.card-img:hover{
+	transform: scale(1.1);
+}
+
+.card-par{
+	padding-top: 10px;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	font-weight: 400;
+	text-align: left;
+	font-size: 16px;
+}
+
+.new-col{
+	height: 730px;
+	width: 880px;
+	background-image: url("Img/Rectangle 8.png");
+}
+
+.overlay-col{
+	height: 730px;
+}
+
+.coll-title{
+	text-align: center;
+	padding-top: 300px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+
+.hr2{
+	margin-top: 1px;
+}
+
+.button{
+	width: 138px;
+	height: 47px;
+	border-style: solid;
+	border-color: white;
+	margin:30px 371px;
+	padding-top: 10px;
+	border-width: 1px;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	transition: color 0.2s, background-color 0.2s, transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.fow{
+	text-decoration: none;
+}
+
+.button:hover{
+	background-color: white;
+	color: black;
+}
+
+.bdck-chb{
+	height: 600px;
+	width: 880px;
+	background-image: url("Img/Rectangle 9.png");
+}
+
+.col-2018{
+	width: 1040px;
+	height: 600px;
+	text-align: center;
+}
+
+.coll-title-2018{
+	color: white;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform: uppercase;
+	padding: 100px 0px 40px;
+}
+
+.lorem{
+	padding: 40px 0px 61px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: white;
+	width: 471px;
+	margin: auto;
+
+}
+
+.se-col{
+	text-align: center;
+}
+
+.col-2018but{
+	margin: auto;
+	padding: 11px;
+	background-color: black;
+	color: white;
+	width: 311px;
+	height: 47px;
+	border: 1px solid;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	transition: all 0.3s linear;
+}
+
+.col-2018but:hover{
+	background-color: white;
+	color: black;
+	border-color:white;
+}
+
+.col-2018but:active {
+  transform: translateY(8px);
+ }
+
+ .se-col{
+ 	text-decoration: none;
+ }
+
+ .newcolec{
+ 	text-align: center;
+ 	height: 1289px;
+ 	background-color: black;
+ 	display: flex;
+ 	justify-content: center;
+ }
+
+.new-conter{
+	width: 1121px;
+}
+
+ .new-title{
+ 	padding: 120px 0px 40px;
+ }
+
+ .card-new{
+ 	margin-right: 23px;
+ 	margin-top: 40px;
+ }
+
+ .card-right{
+ 	margin-right: 0px;
+ }
+
+ .right-card{
+ 	margin-right: 0;
+ }
+
+ .brend{
+ 	background-color: #0F0F0F;
+ 	display: flex;
+ 	justify-content: center;
+ 	height: 362px;
+ }
+
+ .brend-cont{
+ 	width: 1110px;
+ 	text-align: center;
+ }
+
+.br-title{
+	padding: 60px 0px 40px;
+}
+
+.br-pic{
+	padding-top: 30px;
+	padding-right: 20px;
+}
+
+.about{
+	height: 400px;
+	background-image: url("Img/Rectangle 15.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.ab-cont{
+	width: 1110px;
+	display: flex;
+	justify-content: senter;
+	margin: auto;
+}
+
+.ab-title{
+	padding: 80px 0 40px;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	font-weight: 400;
+	text-align: left;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.ab-par{
+	text-align: left;
+	width: 350px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+}
+
+.mini-conten{
+	width: 296px;
+	height: 102px;	
+}
+
+.mini-card{
+	height: 40px;
+	background-color: #0F0F0F;
+	margin-right: 20px;
+	display: inline-block;
+	text-align: center;	
+	padding: 10px 0px;
+}
+
+.a-min{
+	text-decoration:none;
+}
+
+.cat-tit{
+	color: #A9A9A9;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+
+}
+
+.right-c{
+	margin-right: 0;
+}
+
+.forma{
+	margin-top: 37px;
+	display: flex;
+	
+}
+
+.form{
+	width: 210px;
+	height: 42px;
+	background-color: rgba(255,255,255, .4);
+}
+
+.post{
+	padding: 11px 15px;
+	color: #333;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+}
+
+.sub{
+	height: 42px;
+	width: 140px;
+	background-color: black;
+	text-align: center;
+}
+
+.subskr{
+	text-decoration: none;
+}
+
+.subs{
+	padding: 11px 0;
+	color: white;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.footer{
+	background-color: black;
+	height: 50px;
+}
+
+.fot-cont{
+	justify-content: space-between;
+	padding: 17px 0px;
+}
+
+.fot-titl{
+	font-family: 'PT Sans', serif;
+	font-weight: 400;
+	color: #A9A9A9;
+	font-size: 12px;
+}
+
+.created{
+	font-family: 'PT Sans', serif;
+	font-weight: 700;
+	color: #A9A9A9;
+	font-size: 12px;
+	text-decoration: underline;
+}
